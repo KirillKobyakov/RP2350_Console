@@ -1,4 +1,4 @@
-26854087888167701
+26857601409026061
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60977,6 +60977,13 @@ Seeed 1.69 Inch LCD Module
 14
 9
 Display
+Untitled
+
+
+0
+0
+0
+Display
 WC1602A
 LCD 16x2 http://www.wincomlcd.com/pdf/WC1602A-SFYLYHTC06.pdf
 LCD 16x2 Alphanumeric 16pin
@@ -62649,6 +62656,13 @@ heatsink
 0
 0
 0
+Inductor_SMD
+Bourns SRP7028AA-2R7M
+2.7 µH Shielded Drum Core, Wirewound Inductor 7.2 A 20mOhm Max Nonstandard
+
+0
+2
+2
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
