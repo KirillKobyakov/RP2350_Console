@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.2
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -59,7 +59,68 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "footprint_filters_mismatch|107750000|144500000|26fefb5c-6730-4bc7-84cf-ed05a016a9ad|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "footprint_filters_mismatch|116640000|121020000|c5759aa4-ab95-44af-8327-95c2ba1819cc|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "footprint_filters_mismatch|72250000|139500000|e455d6b2-1c62-47d3-9850-46c916ea4491|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "footprint_filters_mismatch|90000000|146510000|00784e68-fe8d-4b0f-affc-561185e31103|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "footprint_symbol_mismatch|107750000|144500000|26fefb5c-6730-4bc7-84cf-ed05a016a9ad|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "footprint_symbol_mismatch|72250000|139500000|e455d6b2-1c62-47d3-9850-46c916ea4491|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "footprint_type_mismatch|90000000|131800000|2becdbd5-d43c-43b6-bf4f-5fc6c29d0ff2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "footprint_type_mismatch|90000000|146510000|00784e68-fe8d-4b0f-affc-561185e31103|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "missing_courtyard|116640000|121020000|c5759aa4-ab95-44af-8327-95c2ba1819cc|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "missing_courtyard|90010000|143140000|05b5cfe5-ee67-4385-82f8-8d210d433649|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "nonmirrored_text_on_back_layer|109750000|134750000|c19353e1-38d5-4912-bd8d-1903c601b4d0|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "nonmirrored_text_on_back_layer|126750000|126155602|e8666519-d1e3-4dfc-81c1-4c64ab11c938|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "nonmirrored_text_on_back_layer|53250000|134000000|76b537bf-9f8c-42bd-87f8-5779f56d9fab|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "nonmirrored_text_on_back_layer|69250000|134750000|8eb93612-0b6e-4ad3-9722-a107a4a76637|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "nonmirrored_text_on_back_layer|90000000|142750000|e33f8820-50dc-4adb-bc0c-ddd917815f53|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -78,7 +139,7 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "ignore",
+        "footprint_filters_mismatch": "error",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
@@ -95,13 +156,13 @@
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "error",
         "padstack": "error",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",

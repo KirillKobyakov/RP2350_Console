@@ -1,4 +1,4 @@
-26857601409026061
+26862880631686792
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -1795,6 +1795,13 @@ Button_Switch_THT
 Push_E-Switch_KS01Q01
 E-Switch KS01Q01 http://spec_sheets.e-switch.com/specs/29-KS01Q01.pdf
 Push Button
+0
+4
+4
+Button_Switch_THT
+SW_1825910-6-4
+
+
 0
 4
 4
@@ -62664,6 +62671,13 @@ Bourns SRP7028AA-2R7M
 2
 2
 Inductor_SMD
+IND-SMD_L5.0-W5.0_FNR50XXS
+
+
+0
+2
+2
+Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
 Choke SMD
@@ -74224,6 +74238,13 @@ OptoDevice
 Vishay_TCRT5000
 IR Reflective Optical Sensor with Transistor Output TCRT5000 https://www.vishay.com/docs/83760/tcrt5000.pdf
 IR Reflective Optical Sensor with Transistor Output TCRT5000 Vishay Distance Sensor
+0
+4
+4
+Oscillator
+CRYSTAL-SMD_4P-L3.2-W2.5-BL-2
+
+
 0
 4
 4
