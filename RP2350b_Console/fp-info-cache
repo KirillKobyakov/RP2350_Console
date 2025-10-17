@@ -1,4 +1,4 @@
-26862880631686792
+26864656654267224
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62666,6 +62666,13 @@ heatsink
 Inductor_SMD
 Bourns SRP7028AA-2R7M
 2.7 µH Shielded Drum Core, Wirewound Inductor 7.2 A 20mOhm Max Nonstandard
+
+0
+2
+2
+Inductor_SMD
+IND-SMD_L2.0-W1.6_AOTA-B201610S3R3-101-T
+
 
 0
 2
