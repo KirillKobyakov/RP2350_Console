@@ -7,6 +7,8 @@
 #define LOOP_PERIOD_US 1000
 
 typedef enum { BOTH_HIGH, NO_HIGH, A_HIGH, B_HIGH} enc_state_type;
+typedef enum { SKETCH, COLOR, SIZE } paint_mode_type;
+
 
 uint8_t encoder_1_counter ( void );
 uint8_t encoder_2_counter ( void );
@@ -22,30 +24,38 @@ void main ( void ) {
     __enable_irq();
 
     setup_oled();
-
     turn_on_led();
+   clear_display();
 
     uint16_t valx, valy;
-
-    
-    volatile _Bool reset_d1 = 0;
-    volatile _Bool reset_d2 = 0;
-
-    clear_display();
-
+    _Bool enc_1_button_state, enc_1_button_state_reg;
+    _Bool enc_2_button_state, enc_2_button_state_reg;
+    paint_mode_type app_state = SKETCH;
 
     while(1) {
 
-
         if ( !system_tick() )
             continue;
-        
+
+
+        enc_1_button_state = get_encoder_1_button(); 
+        enc_2_button_state = get_encoder_2_button();
+
         valx = encoder_1_counter();
         valy = encoder_2_counter();
 
-        reset_d1 = get_encoder_2_button();
-
-        if(reset_d1 && !(reset_d2))
+        switch(app_state) {
+          case SKETCH:
+            draw_box(valx, valy, 2);
+            break;
+          case COLOR: // TODO: Implement way to just track encoder turns
+            break;
+          case SIZE: // TODO: Implement way to just track encoder turns
+            break;
+          default:
+            break;
+        }
+        if()
         {
             clear_display();
         } else {
@@ -53,7 +63,8 @@ void main ( void ) {
 //            draw_pixel(valx, valy);
         }
 
-        reset_d2 = reset_d1;
+        enc_1_button_state_reg = enc_1_button_state;
+        enc_2_button_state_reg = enc_2_button_state;
     }
 }
 

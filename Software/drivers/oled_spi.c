@@ -228,24 +228,24 @@ void setup_oled ( void ) {
     oled_send_command(0x11);
     while( !system_tick() );
     oled_send_command(0x29);
-
 }
 
 void draw_pixel (uint16_t cursor_x, uint16_t cursor_y) {
+  // Set Row Address Range
   oled_send_command(0x2A);
   oled_send_data(cursor_x >> 8);
   oled_send_data(cursor_x & 0xFF);
   oled_send_data(cursor_x >> 8);
   oled_send_data(cursor_x && 0xFF);
 
+  // Set Column Address Range
   oled_send_command(0x2B);
   oled_send_data(cursor_y >> 8);
   oled_send_data(cursor_y & 0xFF);
   oled_send_data(cursor_y >> 8);
   oled_send_data(cursor_y && 0xFF);
 
-
-
+  // Write data to pixel
   oled_send_command(0x2C);
   oled_send_data(0xFF);
   oled_send_data(0xFF);
@@ -308,43 +308,5 @@ void clear_display ( void ) {
     oled_send_data(0x00);
     pixels--;
   }
-  //oled_send_command(0x00);
-}
-
-void update_display ( void ) {
-    for (uint8_t page = 0; page < 8; page++) {
-        oled_send_command(0xB0 | page);       
-        oled_send_command(0x02);               
-        oled_send_command(0x10);              
-
-
-        for (uint8_t col = 0; col < 128; col++) {
-            oled_send_data(display_RAM[page][col]); 
-        }
-    }
-}
-
-
-void oled_clear ( void ) {
-    memset ( display_RAM, 0, 8*128);
-    update_display();
-}
-
-
-void set_pixel ( uint8_t row, uint8_t col)
-{
-    if (col >= 128 || row >= 64)
-        return;
-    display_RAM[row/8][col] |= 1<<(row & 0x7);
-
-  
-}
-
-
-void clear_pixel ( uint8_t row, uint8_t col )
-{
-    if (col >= 128 || row >= 64)
-        return;
-    display_RAM[row/8][col] &= ~(1<<(row & 0x7));
 }
 
