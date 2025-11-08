@@ -1,1 +1,1 @@
-{"ARCHIVE_NAME": "$(RP2350b_Console)_$(V1.1)", "EXTRA_LAYERS": "", "ALL_ACTIVE_LAYERS": true, "EXTEND_EDGE_CUT": false, "ALTERNATIVE_EDGE_CUT": false, "AUTO TRANSLATE": true, "AUTO FILL": true, "EXCLUDE DNP": true}
+{"ARCHIVE_NAME": "$(RP2350b_Console)_$(V2.0)", "EXTRA_LAYERS": "", "ALL_ACTIVE_LAYERS": true, "EXTEND_EDGE_CUT": false, "ALTERNATIVE_EDGE_CUT": false, "AUTO TRANSLATE": true, "AUTO FILL": true, "EXCLUDE DNP": false, "OPEN BROWSER": true, "NO_BACKUP_OPT": false}
