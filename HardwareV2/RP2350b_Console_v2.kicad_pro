@@ -412,6 +412,14 @@
     [
       "72e8720b-5adf-4b6d-9b96-dda4c7035d94",
       "Root"
+    ],
+    [
+      "f2c5d33e-3777-414e-9fd4-d6957a64d8b9",
+      "Power_and_Battery_Managment"
+    ],
+    [
+      "bc87cd9c-566b-4ccb-bad2-c3e7b1cbb550",
+      "USB"
     ]
   ],
   "text_variables": {}
