@@ -2064,7 +2064,7 @@
 		)
 		(uuid "162869e8-2c8c-4756-b0a1-4b394518625d")
 	)
-	(text "Feature: SW1 to allow user to turn the device on and off"
+	(text "Feature: SW1 to allow user to turn the device on and off\nEN=1 device is enabled, EN=0 device is disabled"
 		(exclude_from_sim no)
 		(at 160.528 93.472 0)
 		(effects

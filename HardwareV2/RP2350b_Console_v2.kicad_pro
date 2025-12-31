@@ -420,6 +420,14 @@
     [
       "bc87cd9c-566b-4ccb-bad2-c3e7b1cbb550",
       "USB"
+    ],
+    [
+      "80158e86-dd7b-4a2c-8506-5840b663a81d",
+      "Memory"
+    ],
+    [
+      "295ec146-e6b6-4185-b06b-08276523a131",
+      "Crystal Oscillator"
     ]
   ],
   "text_variables": {}
