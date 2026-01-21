@@ -2044,6 +2044,48 @@
 		)
 	)
 	(sheet
+		(at 173.355 76.2)
+		(size 30.48 32.385)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "013efe37-377d-40e5-88f6-0da011b73024")
+		(property "Sheetname" "User_IO"
+			(at 173.355 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "user_io.kicad_sch"
+			(at 173.355 109.1696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RP2350b_Console_v2"
+				(path "/72e8720b-5adf-4b6d-9b96-dda4c7035d94"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 246.634 115.57)
 		(size 29.464 21.336)
 		(exclude_from_sim no)
@@ -2123,6 +2165,48 @@
 			(project "RP2350b_Console_v2"
 				(path "/72e8720b-5adf-4b6d-9b96-dda4c7035d94"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 212.09 115.57)
+		(size 31.75 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "89d4dab2-66d8-4149-a2b3-9fe3e528e793")
+		(property "Sheetname" "Core"
+			(at 212.09 114.8584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "core.kicad_sch"
+			(at 212.09 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "RP2350b_Console_v2"
+				(path "/72e8720b-5adf-4b6d-9b96-dda4c7035d94"
+					(page "7")
 				)
 			)
 		)

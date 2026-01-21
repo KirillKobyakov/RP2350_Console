@@ -1,0 +1,226 @@
+(footprint "PEC12R-4XXXF-SXXXX_1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "PEC12R-4XXXF-SXXXX")
+	(tags "Undefined or Miscellaneous")
+	(property "Reference" "U**"
+		(at -0.357 1.016 0)
+		(layer "F.SilkS")
+		(uuid "bba08a6f-1dca-4136-93aa-d1b8777fb511")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "PEC12R-4XXXF-SXXXX_1"
+		(at -0.357 1.016 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "44ad6f9a-596d-40e6-ac6f-cf3a0b45fbe2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18ca212c-4fde-47ef-a025-450b9d7a9760")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ee49d1f-0fb6-4eba-897d-e78d965e61b6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.2 -6.7)
+		(end -6.2 -2.6)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "63f14d56-00fc-43ad-a534-854e8fcbff65")
+	)
+	(fp_line
+		(start -6.2 6.7)
+		(end -6.2 2.6)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b8fa73d5-5422-42ed-a301-13c3b19273df")
+	)
+	(fp_line
+		(start 6.2 -6.7)
+		(end 6.2 -2.6)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "116a4b0b-a666-4fa7-a8f1-b301cbeb72ee")
+	)
+	(fp_line
+		(start 6.2 6.7)
+		(end 6.2 2.6)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff127737-bf8c-407e-9c2a-6dbdbd8fad0f")
+	)
+	(fp_circle
+		(center -2.533 8.863)
+		(end -2.533 8.9451)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f194b9ae-8fa5-402a-82af-e69059fcc2df")
+	)
+	(fp_line
+		(start -6.2 -6.7)
+		(end 6.2 -6.7)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "deffb168-9632-41f7-a247-edb3f9bc510c")
+	)
+	(fp_line
+		(start -6.2 6.7)
+		(end -6.2 -6.7)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "436fc079-df7d-4579-a849-381539a745d8")
+	)
+	(fp_line
+		(start 6.2 -6.7)
+		(end 6.2 6.7)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "831751b7-4ff9-4640-b47b-31d3b45f546c")
+	)
+	(fp_line
+		(start 6.2 6.7)
+		(end -6.2 6.7)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7547f035-184c-42c3-9bb2-b548c05972a0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.357 1.016 0)
+		(layer "F.Fab")
+		(uuid "4b34dd6b-29bf-431a-8471-db7b2ce9f402")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 7.5)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "193448b5-465c-4a37-81d0-6cd73481e8e8")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 7.5)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2495101c-a4df-446c-aa69-921e24a99533")
+	)
+	(pad "3" thru_hole circle
+		(at 0 7.5)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "403decbb-2559-4a25-a9a9-30898522b8ef")
+	)
+	(pad "4" thru_hole circle
+		(at -2.5 -7)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "82e002da-f53b-46c6-8def-d84f94535992")
+	)
+	(pad "5" thru_hole circle
+		(at 2.5 -7)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "799e8e9c-8adf-45ae-8cfe-d616e7dd36fc")
+	)
+	(pad "6" thru_hole circle
+		(at 5.6 0)
+		(size 4.8 4.8)
+		(drill 3.28)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6784d3b1-fb7e-4ca6-8e88-940d12374599")
+	)
+	(pad "7" thru_hole circle
+		(at -5.6 0)
+		(size 4.8 4.8)
+		(drill 3.28)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "af868f69-c202-4738-a82a-7f938c1f840d")
+	)
+	(embedded_fonts no)
+	(model "PEC12R-4215F-S0024.stp"
+		(offset
+			(xyz -32.4599986 -11.19999964 4.749999929)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -180)
+		)
+	)
+)

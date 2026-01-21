@@ -799,6 +799,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "USB Connector"
+		(exclude_from_sim no)
+		(at 100.33 47.752 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "156f720c-be3b-40c1-929b-f3238ecfb68e")
+	)
 	(junction
 		(at 111.76 71.12)
 		(diameter 0)

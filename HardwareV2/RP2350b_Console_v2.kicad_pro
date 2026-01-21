@@ -428,6 +428,14 @@
     [
       "295ec146-e6b6-4185-b06b-08276523a131",
       "Crystal Oscillator"
+    ],
+    [
+      "013efe37-377d-40e5-88f6-0da011b73024",
+      "User_IO"
+    ],
+    [
+      "89d4dab2-66d8-4149-a2b3-9fe3e528e793",
+      "Core"
     ]
   ],
   "text_variables": {}
