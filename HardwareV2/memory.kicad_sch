@@ -1174,7 +1174,7 @@
 				)
 			)
 		)
-		(property "Footprint" "parts_lib:SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
+		(property "Footprint" "RP2350b_parts_layout:SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
 			(at 80.772 132.08 0)
 			(effects
 				(font
@@ -1401,7 +1401,7 @@
 				)
 			)
 		)
-		(property "Footprint" "parts_lib:SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL"
+		(property "Footprint" "RP2350b_parts_layout:SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL"
 			(at 73.66 74.93 0)
 			(effects
 				(font

@@ -751,7 +751,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 83.82 40.64 0)
 			(effects
 				(font
@@ -803,7 +803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1553d1f6-592e-4529-858d-edf80a19849c")
-		(property "Reference" "SW6"
+		(property "Reference" "SW2"
 			(at 102.87 34.29 0)
 			(effects
 				(font
@@ -819,7 +819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "parts_lib:SW-TH_4P-L6.0-W6.0-P4.50-LS6.5"
+		(property "Footprint" "RP2350b_parts_layout:SW-TH_4P-L6.0-W6.0-P4.50-LS6.5"
 			(at 102.616 53.34 0)
 			(effects
 				(font
@@ -870,7 +870,7 @@
 		(instances
 			(project "RP2350b_Console_v2"
 				(path "/72e8720b-5adf-4b6d-9b96-dda4c7035d94/89d4dab2-66d8-4149-a2b3-9fe3e528e793"
-					(reference "SW6")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -886,7 +886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5bd46b3-ad7b-41a8-a298-8de34959a412")
-		(property "Reference" "SW7"
+		(property "Reference" "SW3"
 			(at 191.77 34.29 0)
 			(effects
 				(font
@@ -902,7 +902,7 @@
 				)
 			)
 		)
-		(property "Footprint" "parts_lib:SW-TH_4P-L6.0-W6.0-P4.50-LS6.5"
+		(property "Footprint" "RP2350b_parts_layout:SW-TH_4P-L6.0-W6.0-P4.50-LS6.5"
 			(at 191.516 53.34 0)
 			(effects
 				(font
@@ -953,7 +953,7 @@
 		(instances
 			(project "RP2350b_Console_v2"
 				(path "/72e8720b-5adf-4b6d-9b96-dda4c7035d94/89d4dab2-66d8-4149-a2b3-9fe3e528e793"
-					(reference "SW7")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -1117,7 +1117,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 173.99 40.64 0)
 			(effects
 				(font

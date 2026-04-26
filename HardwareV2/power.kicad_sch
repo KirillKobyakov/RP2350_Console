@@ -3164,7 +3164,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 119.38 55.118 90)
 			(effects
 				(font
@@ -3231,7 +3231,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 119.38 58.928 90)
 			(effects
 				(font
@@ -3300,7 +3300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 134.62 58.42 0)
 			(effects
 				(font
@@ -3512,7 +3512,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 43.942 72.39 90)
 			(effects
 				(font
@@ -3920,7 +3920,7 @@
 				)
 			)
 		)
-		(property "Footprint" "parts_lib:VSON-14_L4.0-W3.0-P0.50-BL-EP_TI_DSJ"
+		(property "Footprint" "RP2350b_parts_layout:VSON-14_L4.0-W3.0-P0.50-BL-EP_TI_DSJ"
 			(at 177.546 85.09 0)
 			(effects
 				(font
@@ -4037,7 +4037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 203.2 55.88 0)
 			(effects
 				(font
@@ -4106,7 +4106,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "parts_lib:CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN"
+		(property "Footprint" "RP2350b_parts_layout:CONN-SMD_P2.00_S2B-PH-SM4-TB-LF-SN"
 			(at 231.14 88.9 0)
 			(effects
 				(font
@@ -4191,7 +4191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 138.43 63.5 0)
 			(effects
 				(font
@@ -4530,7 +4530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Coilcraft_XxL4020"
 			(at 194.31 73.66 0)
 			(effects
 				(font
@@ -4580,7 +4580,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "caa71b55-2207-4e4b-8bcf-25afcbb072f3")
 		(property "Reference" "U2"
 			(at 85.09 39.37 0)
@@ -4598,8 +4597,8 @@
 				)
 			)
 		)
-		(property "Footprint" "parts_lib:WSON-10_L2.0-W2.0-P0.40-BL-EP"
-			(at 85.09 82.55 0)
+		(property "Footprint" "RP2350b_parts_layout:WSON-10_L2.0-W2.0-P0.40-BL-EP"
+			(at 90.3453 81.9296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4703,7 +4702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 118.872 72.39 90)
 			(effects
 				(font
@@ -4905,7 +4904,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 56.642 72.39 90)
 			(effects
 				(font

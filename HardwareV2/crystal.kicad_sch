@@ -851,7 +851,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 163.83 91.44 0)
 			(effects
 				(font
@@ -919,7 +919,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 148.59 96.52 0)
 			(effects
 				(font
@@ -987,7 +987,7 @@
 				)
 			)
 		)
-		(property "Footprint" "parts_lib:CRYSTAL-SMD_4P-L3.2-W2.5-BL-2"
+		(property "Footprint" "RP2350b_parts_layout:CRYSTAL-SMD_4P-L3.2-W2.5-BL-2"
 			(at 133.35 100.33 0)
 			(effects
 				(font
@@ -1203,7 +1203,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 143.51 100.33 0)
 			(effects
 				(font

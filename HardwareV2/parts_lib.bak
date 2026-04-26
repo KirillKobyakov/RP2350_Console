@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "1825910-6"
-			(at 0 -7.62 0)
+			(at -0.254 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "parts_lib:SW-TH_4P-L6.0-W6.0-P4.50-LS6.5"
-			(at 0 -10.16 0)
+			(at -0.254 -8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_TE-Connectivity-1825910-6_C428628.html"
-			(at 0 -12.7 0)
+			(at -0.254 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50,7 +50,7 @@
 			)
 		)
 		(property "LCSC Part" "C428628"
-			(at 0 -15.24 0)
+			(at -0.254 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60,8 +60,8 @@
 		)
 		(symbol "1825910-6_0_1"
 			(rectangle
-				(start -5.08 4.445)
-				(end 5.08 -4.445)
+				(start -5.08 5.08)
+				(end 5.08 -3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -72,7 +72,31 @@
 			)
 			(polyline
 				(pts
-					(xy 0 1.27) (xy 0 2.54)
+					(xy -2.54 3.81) (xy -2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.02 0.25) (xy 0.76 1.02)
 				)
 				(stroke
 					(width 0)
@@ -83,7 +107,7 @@
 				)
 			)
 			(circle
-				(center 0 1.02)
+				(center -1.02 0)
 				(radius 0.25)
 				(stroke
 					(width 0)
@@ -94,7 +118,7 @@
 				)
 			)
 			(circle
-				(center 0 -1.02)
+				(center 1.02 0)
 				(radius 0.25)
 				(stroke
 					(width 0)
@@ -106,7 +130,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -1.27) (xy 0 -2.54)
+					(xy 1.27 0) (xy 2.54 0)
 				)
 				(stroke
 					(width 0)
@@ -118,31 +142,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0.25 1.02) (xy 1.02 -0.76)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.08 2.54) (xy -5.08 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.08 -2.54) (xy -5.08 -2.54)
+					(xy 2.54 3.81) (xy 2.54 -2.54)
 				)
 				(stroke
 					(width 0)
@@ -153,43 +153,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -7.62 2.54 0)
-				(length 2.54)
-				(name "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -7.62 -2.54 0)
-				(length 2.54)
-				(name "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 7.62 2.54 180)
+				(at -7.62 3.81 0)
 				(length 2.54)
 				(name "1"
 					(effects
@@ -207,7 +171,25 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 -2.54 180)
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 7.62 3.81 180)
 				(length 2.54)
 				(name "3"
 					(effects
@@ -217,6 +199,24 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1226,24 +1226,6 @@
 			(pin unspecified line
 				(at -21.59 59.69 0)
 				(length 2.54)
-				(name "VREG_AVDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "61"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -21.59 57.15 0)
-				(length 2.54)
 				(name "USB_OTP_VDD"
 					(effects
 						(font
@@ -1260,7 +1242,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -21.59 54.61 0)
+				(at -21.59 57.15 0)
 				(length 2.54)
 				(name "QSPI_IOVDD"
 					(effects
@@ -1278,7 +1260,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -21.59 52.07 0)
+				(at -21.59 54.61 0)
 				(length 2.54)
 				(name "IOVDD"
 					(effects
@@ -1296,7 +1278,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -21.59 49.53 0)
+				(at -21.59 52.07 0)
 				(length 2.54)
 				(name "IOVDD"
 					(effects
@@ -1314,7 +1296,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -21.59 46.99 0)
+				(at -21.59 49.53 0)
 				(length 2.54)
 				(name "IOVDD"
 					(effects
@@ -1332,7 +1314,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -21.59 44.45 0)
+				(at -21.59 46.99 0)
 				(length 2.54)
 				(name "IOVDD"
 					(effects
@@ -1350,7 +1332,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -21.59 41.91 0)
+				(at -21.59 44.45 0)
 				(length 2.54)
 				(name "IOVDD"
 					(effects
@@ -1368,7 +1350,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -21.59 39.37 0)
+				(at -21.59 41.91 0)
 				(length 2.54)
 				(name "IOVDD"
 					(effects
@@ -1386,7 +1368,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -21.59 36.83 0)
+				(at -21.59 39.37 0)
 				(length 2.54)
 				(name "IOVDD"
 					(effects
@@ -1404,7 +1386,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -21.59 34.29 0)
+				(at -21.59 36.83 0)
 				(length 2.54)
 				(name "IOVDD"
 					(effects
@@ -1422,7 +1404,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -21.59 31.75 0)
+				(at -21.59 34.29 0)
 				(length 2.54)
 				(name "DVDD"
 					(effects
@@ -1440,7 +1422,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -21.59 29.21 0)
+				(at -21.59 31.75 0)
 				(length 2.54)
 				(name "DVDD"
 					(effects
@@ -1458,7 +1440,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -21.59 26.67 0)
+				(at -21.59 29.21 0)
 				(length 2.54)
 				(name "DVDD"
 					(effects
@@ -1476,7 +1458,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -21.59 24.13 0)
+				(at -21.59 26.67 0)
 				(length 2.54)
 				(name "ADC_AVDD"
 					(effects
@@ -1620,7 +1602,25 @@
 				)
 			)
 			(pin unspecified line
-				(at -21.59 -24.13 0)
+				(at -21.59 -22.86 0)
+				(length 2.54)
+				(name "VREG_AVDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "61"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -21.59 -25.4 0)
 				(length 2.54)
 				(name "VREG_FB"
 					(effects
@@ -1638,7 +1638,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -21.59 -26.67 0)
+				(at -21.59 -27.94 0)
 				(length 2.54)
 				(name "VREG_LX"
 					(effects
@@ -1656,7 +1656,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -21.59 -29.21 0)
+				(at -21.59 -30.48 0)
 				(length 2.54)
 				(name "VREG_VIN"
 					(effects
@@ -1674,7 +1674,25 @@
 				)
 			)
 			(pin unspecified line
-				(at -21.59 -39.37 0)
+				(at -21.59 -33.02 0)
+				(length 2.54)
+				(name "VREG_PGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "62"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -21.59 -40.64 0)
 				(length 2.54)
 				(name "QSPI_SCLK"
 					(effects
@@ -1692,7 +1710,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -21.59 -41.91 0)
+				(at -21.59 -43.18 0)
 				(length 2.54)
 				(name "QSPI_SD0"
 					(effects
@@ -1710,7 +1728,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -21.59 -44.45 0)
+				(at -21.59 -45.72 0)
 				(length 2.54)
 				(name "QSPI_SD1"
 					(effects
@@ -1728,7 +1746,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -21.59 -46.99 0)
+				(at -21.59 -48.26 0)
 				(length 2.54)
 				(name "QSPI_SD2"
 					(effects
@@ -1746,7 +1764,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -21.59 -49.53 0)
+				(at -21.59 -50.8 0)
 				(length 2.54)
 				(name "QSPI_SD3"
 					(effects
@@ -1764,7 +1782,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -21.59 -52.07 0)
+				(at -21.59 -53.34 0)
 				(length 2.54)
 				(name "QSPI_SS"
 					(effects
@@ -1782,7 +1800,7 @@
 				)
 			)
 			(pin unspecified line
-				(at -21.59 -59.69 0)
+				(at -21.59 -60.96 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -1792,24 +1810,6 @@
 					)
 				)
 				(number "81"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at -21.59 -62.23 0)
-				(length 2.54)
-				(name "VREG_PGND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "62"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3673,9 +3673,11 @@
 					)
 				)
 			)
+		)
+		(symbol "USB-310_1_1"
 			(pin unspecified line
-				(at 7.62 17.78 180)
-				(length 2.54)
+				(at 10.16 17.78 180)
+				(length 5.08)
 				(name "VBUS"
 					(effects
 						(font
@@ -3683,7 +3685,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "A4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3692,8 +3694,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 15.24 180)
-				(length 2.54)
+				(at 10.16 15.24 180)
+				(length 5.08)
 				(name "VBUS"
 					(effects
 						(font
@@ -3701,7 +3703,7 @@
 						)
 					)
 				)
-				(number "4"
+				(number "A9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3710,8 +3712,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 12.7 180)
-				(length 2.54)
+				(at 10.16 12.7 180)
+				(length 5.08)
 				(name "VBUS"
 					(effects
 						(font
@@ -3719,7 +3721,7 @@
 						)
 					)
 				)
-				(number "13"
+				(number "B4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3728,8 +3730,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 10.16 180)
-				(length 2.54)
+				(at 10.16 10.16 180)
+				(length 5.08)
 				(name "VBUS"
 					(effects
 						(font
@@ -3737,7 +3739,7 @@
 						)
 					)
 				)
-				(number "14"
+				(number "B9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3746,8 +3748,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 6.35 180)
-				(length 2.54)
+				(at 10.16 6.35 180)
+				(length 5.08)
 				(name "D-"
 					(effects
 						(font
@@ -3755,7 +3757,7 @@
 						)
 					)
 				)
-				(number "7"
+				(number "A7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3764,8 +3766,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 3.81 180)
-				(length 2.54)
+				(at 10.16 3.81 180)
+				(length 5.08)
 				(name "D-"
 					(effects
 						(font
@@ -3773,7 +3775,7 @@
 						)
 					)
 				)
-				(number "9"
+				(number "B7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3782,8 +3784,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 1.27 180)
-				(length 2.54)
+				(at 10.16 1.27 180)
+				(length 5.08)
 				(name "D+"
 					(effects
 						(font
@@ -3791,7 +3793,7 @@
 						)
 					)
 				)
-				(number "8"
+				(number "A6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3800,8 +3802,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 -1.27 180)
-				(length 2.54)
+				(at 10.16 -1.27 180)
+				(length 5.08)
 				(name "D+"
 					(effects
 						(font
@@ -3809,7 +3811,7 @@
 						)
 					)
 				)
-				(number "10"
+				(number "B6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3818,8 +3820,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 -5.08 180)
-				(length 2.54)
+				(at 10.16 -5.08 180)
+				(length 5.08)
 				(name "SUB1"
 					(effects
 						(font
@@ -3827,7 +3829,7 @@
 						)
 					)
 				)
-				(number "11"
+				(number "A8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3836,8 +3838,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 -7.62 180)
-				(length 2.54)
+				(at 10.16 -7.62 180)
+				(length 5.08)
 				(name "SUB2"
 					(effects
 						(font
@@ -3845,7 +3847,7 @@
 						)
 					)
 				)
-				(number "5"
+				(number "B8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3854,8 +3856,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 -11.43 180)
-				(length 2.54)
+				(at 10.16 -11.43 180)
+				(length 5.08)
 				(name "CC1"
 					(effects
 						(font
@@ -3863,7 +3865,7 @@
 						)
 					)
 				)
-				(number "6"
+				(number "A5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3872,8 +3874,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 -13.97 180)
-				(length 2.54)
+				(at 10.16 -13.97 180)
+				(length 5.08)
 				(name "CC2"
 					(effects
 						(font
@@ -3881,7 +3883,7 @@
 						)
 					)
 				)
-				(number "12"
+				(number "B5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3890,8 +3892,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 -17.78 180)
-				(length 2.54)
+				(at 10.16 -17.78 180)
+				(length 5.08)
 				(name "GND"
 					(effects
 						(font
@@ -3899,7 +3901,7 @@
 						)
 					)
 				)
-				(number "1"
+				(number "A1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3908,8 +3910,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 -20.32 180)
-				(length 2.54)
+				(at 10.16 -20.32 180)
+				(length 5.08)
 				(name "GND"
 					(effects
 						(font
@@ -3917,7 +3919,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "A12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3926,8 +3928,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 -22.86 180)
-				(length 2.54)
+				(at 10.16 -22.86 180)
+				(length 5.08)
 				(name "GND"
 					(effects
 						(font
@@ -3935,7 +3937,7 @@
 						)
 					)
 				)
-				(number "15"
+				(number "B1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3944,8 +3946,8 @@
 				)
 			)
 			(pin unspecified line
-				(at 7.62 -25.4 180)
-				(length 2.54)
+				(at 10.16 -25.4 180)
+				(length 5.08)
 				(name "GND"
 					(effects
 						(font
@@ -3953,7 +3955,7 @@
 						)
 					)
 				)
-				(number "16"
+				(number "B12"
 					(effects
 						(font
 							(size 1.27 1.27)

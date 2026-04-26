@@ -812,9 +812,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "LEFT\n"
+		(exclude_from_sim no)
+		(at 154.4991 91.8303 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "444779b0-1d8f-4a63-8143-afa533eadaab")
+	)
 	(text "D-Pad Buttons"
 		(exclude_from_sim no)
-		(at 153.416 57.15 0)
+		(at 153.7924 48.9679 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -832,6 +842,16 @@
 		)
 		(uuid "4c5e5a67-2d00-4a4e-a2bd-2dd21fd4cfde")
 	)
+	(text "RIGHT"
+		(exclude_from_sim no)
+		(at 154.8356 132.4443 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7098e7c9-c161-4f4f-a518-21bc95bcbb5d")
+	)
 	(text "Screen (SPI)"
 		(exclude_from_sim no)
 		(at 224.536 54.61 0)
@@ -842,9 +862,39 @@
 		)
 		(uuid "91dae263-12af-42d0-8414-7db3bd068a7c")
 	)
+	(text "UP\n"
+		(exclude_from_sim no)
+		(at 154.2576 70.6577 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a3c518c3-29c8-404f-8972-5437f595f535")
+	)
+	(text "DOWN"
+		(exclude_from_sim no)
+		(at 155.2413 153.2723 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "abe097c9-d583-4821-8475-860a22b7da21")
+	)
+	(text "Center"
+		(exclude_from_sim no)
+		(at 154.5796 111.8758 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d8f653e6-8444-41a6-9475-5e730fe5adf8")
+	)
 	(symbol
 		(lib_id "RP2350b_part_sch:1825910-6")
-		(at 153.67 72.39 0)
+		(at 154.32 65.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -852,8 +902,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e0ddc5f-93cc-4f00-8337-1ca71e440920")
-		(property "Reference" "SW2"
-			(at 153.67 62.23 0)
+		(property "Reference" "SW4"
+			(at 154.32 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -861,15 +911,15 @@
 			)
 		)
 		(property "Value" "1825910-6"
-			(at 153.67 64.77 0)
+			(at 154.32 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "parts_lib:SW-TH_4P-L6.0-W6.0-P4.50-LS6.5"
-			(at 153.416 81.28 0)
+		(property "Footprint" "RP2350b_parts_layout:SW-TH_4P-L6.0-W6.0-P4.50-LS6.5"
+			(at 154.066 74.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -878,7 +928,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_TE-Connectivity-1825910-6_C428628.html"
-			(at 153.416 83.82 0)
+			(at 154.066 76.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -887,7 +937,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 72.39 0)
+			(at 154.32 65.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -896,7 +946,7 @@
 			)
 		)
 		(property "LCSC Part" "C428628"
-			(at 153.416 86.36 0)
+			(at 154.066 79.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -919,7 +969,7 @@
 		(instances
 			(project ""
 				(path "/72e8720b-5adf-4b6d-9b96-dda4c7035d94/013efe37-377d-40e5-88f6-0da011b73024"
-					(reference "SW2")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -927,7 +977,7 @@
 	)
 	(symbol
 		(lib_id "RP2350b_part_sch:1825910-6")
-		(at 153.67 91.44 0)
+		(at 154.32 86.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -935,8 +985,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "143234f0-9ba4-47b1-8b72-ae23be1a8c49")
-		(property "Reference" "SW3"
-			(at 153.67 81.28 0)
+		(property "Reference" "SW5"
+			(at 154.32 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -944,15 +994,15 @@
 			)
 		)
 		(property "Value" "1825910-6"
-			(at 153.67 83.82 0)
+			(at 154.32 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "parts_lib:SW-TH_4P-L6.0-W6.0-P4.50-LS6.5"
-			(at 153.416 100.33 0)
+		(property "Footprint" "RP2350b_parts_layout:SW-TH_4P-L6.0-W6.0-P4.50-LS6.5"
+			(at 154.066 95.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -961,7 +1011,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_TE-Connectivity-1825910-6_C428628.html"
-			(at 153.416 102.87 0)
+			(at 154.066 97.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -970,7 +1020,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 91.44 0)
+			(at 154.32 86.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -979,7 +1029,7 @@
 			)
 		)
 		(property "LCSC Part" "C428628"
-			(at 153.416 105.41 0)
+			(at 154.066 100.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1002,7 +1052,7 @@
 		(instances
 			(project "RP2350b_Console_v2"
 				(path "/72e8720b-5adf-4b6d-9b96-dda4c7035d94/013efe37-377d-40e5-88f6-0da011b73024"
-					(reference "SW3")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -1010,16 +1060,16 @@
 	)
 	(symbol
 		(lib_id "RP2350b_part_sch:1825910-6")
-		(at 153.67 109.22 0)
+		(at 154.8935 147.3601 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "514e2475-aacb-4f98-9622-dec8810b0cb6")
-		(property "Reference" "SW4"
-			(at 153.67 99.06 0)
+		(uuid "31709694-871f-421b-8fa4-3c0c4b95085c")
+		(property "Reference" "SW8"
+			(at 154.8935 137.2001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1027,15 +1077,15 @@
 			)
 		)
 		(property "Value" "1825910-6"
-			(at 153.67 101.6 0)
+			(at 154.8935 139.7401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "parts_lib:SW-TH_4P-L6.0-W6.0-P4.50-LS6.5"
-			(at 153.416 118.11 0)
+		(property "Footprint" "RP2350b_parts_layout:SW-TH_4P-L6.0-W6.0-P4.50-LS6.5"
+			(at 154.6395 156.2501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1044,7 +1094,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_TE-Connectivity-1825910-6_C428628.html"
-			(at 153.416 120.65 0)
+			(at 154.6395 158.7901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1053,7 +1103,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 109.22 0)
+			(at 154.8935 147.3601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1062,7 +1112,90 @@
 			)
 		)
 		(property "LCSC Part" "C428628"
-			(at 153.416 123.19 0)
+			(at 154.6395 161.3301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f7e348f5-caff-421d-b1ec-d7e4f8cfc1a8")
+		)
+		(pin "3"
+			(uuid "a0dbff23-8f06-4e6e-9901-fa73428c0dad")
+		)
+		(pin "4"
+			(uuid "9bf35d2c-f2ab-410e-8cc9-7cc81d3eb155")
+		)
+		(pin "1"
+			(uuid "e2111243-66e8-4e72-86a5-547ece932fbe")
+		)
+		(instances
+			(project "RP2350b_Console_v2"
+				(path "/72e8720b-5adf-4b6d-9b96-dda4c7035d94/013efe37-377d-40e5-88f6-0da011b73024"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "RP2350b_part_sch:1825910-6")
+		(at 154.42 106.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "514e2475-aacb-4f98-9622-dec8810b0cb6")
+		(property "Reference" "SW6"
+			(at 154.42 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1825910-6"
+			(at 154.42 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RP2350b_parts_layout:SW-TH_4P-L6.0-W6.0-P4.50-LS6.5"
+			(at 154.166 115.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_TE-Connectivity-1825910-6_C428628.html"
+			(at 154.166 117.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.42 106.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C428628"
+			(at 154.166 120.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1085,7 +1218,7 @@
 		(instances
 			(project "RP2350b_Console_v2"
 				(path "/72e8720b-5adf-4b6d-9b96-dda4c7035d94/013efe37-377d-40e5-88f6-0da011b73024"
-					(reference "SW4")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -1208,7 +1341,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PEC12R-4XXXF-SXXXX_1"
+		(property "Footprint" "RP2350b_parts_layout:PEC12R-4XXXF-SXXXX_1"
 			(at 83.82 166.04 0)
 			(effects
 				(font
@@ -1357,7 +1490,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PEC12R-4XXXF-SXXXX_1"
+		(property "Footprint" "RP2350b_parts_layout:PEC12R-4XXXF-SXXXX_1"
 			(at 83.82 187.63 0)
 			(effects
 				(font
@@ -1482,7 +1615,7 @@
 	)
 	(symbol
 		(lib_id "RP2350b_part_sch:1825910-6")
-		(at 153.67 127 0)
+		(at 154.82 126.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1490,8 +1623,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5dba453-dfe3-4c6b-9099-ace34c0e7656")
-		(property "Reference" "SW5"
-			(at 153.67 116.84 0)
+		(property "Reference" "SW7"
+			(at 154.82 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1499,15 +1632,15 @@
 			)
 		)
 		(property "Value" "1825910-6"
-			(at 153.67 119.38 0)
+			(at 154.82 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "parts_lib:SW-TH_4P-L6.0-W6.0-P4.50-LS6.5"
-			(at 153.416 135.89 0)
+		(property "Footprint" "RP2350b_parts_layout:SW-TH_4P-L6.0-W6.0-P4.50-LS6.5"
+			(at 154.566 135.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1516,7 +1649,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_TE-Connectivity-1825910-6_C428628.html"
-			(at 153.416 138.43 0)
+			(at 154.566 138.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1525,7 +1658,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 127 0)
+			(at 154.82 126.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1534,7 +1667,7 @@
 			)
 		)
 		(property "LCSC Part" "C428628"
-			(at 153.416 140.97 0)
+			(at 154.566 140.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1557,7 +1690,7 @@
 		(instances
 			(project "RP2350b_Console_v2"
 				(path "/72e8720b-5adf-4b6d-9b96-dda4c7035d94/013efe37-377d-40e5-88f6-0da011b73024"
-					(reference "SW5")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
